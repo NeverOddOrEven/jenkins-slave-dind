@@ -5,7 +5,7 @@ Build and run:
 ```
 docker build -t bboutier/jenkins-slave-dind .
 docker run -it -d --privileged -p 7000:22 --name slave bboutier/jenkins-slave-dind
-````
+```
 
 Test ssh connexion (jenkins/jenkins):
 
