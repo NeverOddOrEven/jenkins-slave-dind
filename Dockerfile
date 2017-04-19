@@ -1,6 +1,6 @@
 FROM docker:dind
 
-RUN apk add --update openssh openrc bash openjdk8 git subversion
+RUN apk add --update openssh openrc bash openjdk8 git subversion wget
 
 RUN     openrc \
         && touch /run/openrc/softlevel \
